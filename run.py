@@ -8,9 +8,9 @@ threads = {}
 def Open():
     window = tk.Tk()
     window.title("Astley")
-    window.geometry("620x400")
+    window.geometry("275x183")
     window.configure(background='grey')
-    img = ImageTk.PhotoImage(Image.open("astley.jpg"), master=window)
+    img = ImageTk.PhotoImage(Image.open("images/astley.jpg"), master=window)
     panel = tk.Label(window, image=img)
     panel.pack(side="bottom", fill="both", expand="yes")
     window.attributes("-topmost", True)
