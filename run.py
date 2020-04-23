@@ -19,7 +19,7 @@ def Open():
 def on_press(key):
     try:
         KEY = key.char.lower()
-        if KEY in ['c', 'e', 'n', 'a']:
+        if KEY in ['b', 'o', 'i']:
             thread_id = len(threads) + 1
             threads[thread_id] = threading.Thread(target=Open)
             threads[thread_id].start()
